@@ -1,0 +1,24 @@
+.post-grid {
+	list-style: none;
+	li {
+    width: 33%;
+		overflow: hidden;
+    display: inline-block;
+    padding: 0 8;
+    @include media-query('palm') {
+  		width: 100%;
+  	}
+		&:before {
+			content: '';
+		}
+		@include media-query($max-width + $base-spacing-unit * 2) {
+			margin-left: 0;
+		}
+	}
+}
+.post-grid__heading {
+	margin: 0;
+}
+.post-grid__preview {
+	margin-bottom: $base-spacing-unit * 2;
+}

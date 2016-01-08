@@ -1,0 +1,34 @@
+{
+  "name": "antwar-rikki-theme",
+  "version": "0.4.1",
+  "description": "Default theme for antwar",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/antwarjs/default-theme.git"
+  },
+  "keywords": [
+    "antwar",
+    "theme"
+  ],
+  "author": "eldh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/antwarjs/default-theme/issues"
+  },
+  "homepage": "https://github.com/antwarjs/default-theme",
+  "dependencies": {
+    "autoprefixer-loader": "^2.0.0",
+    "coffee-loader": "^0.7.2",
+    "coffee-script": ">= 1.9.1 < 2.0",
+    "lodash": ">= 3.6.0 < 4.0",
+    "node-sass": "^3.2.0",
+    "moment": ">= 2.9.0 < 3.0",
+    "react": ">= 0.10.0 < 1.x",
+    "react-coffee-elements": "^0.1.0",
+    "sass-loader": "^1.0.2"
+  }
+}

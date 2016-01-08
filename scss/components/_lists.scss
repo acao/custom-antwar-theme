@@ -1,0 +1,32 @@
+ul {
+	list-style:none;
+	>li {
+		&:before {
+			content: '- ';
+			position: absolute;
+			margin-left: -1em;
+		}
+	}
+}
+li {
+	margin-bottom: $base-spacing-unit;
+	@include media-query($max-width + $base-spacing-unit * 2) {
+		margin-left: 1em;
+	}
+}
+ul.reset {
+	list-style:none;
+	>li {
+		&:before {
+			content: none;
+			position: normal;
+			margin-left: 0;
+		}
+	}
+}
+li {
+	margin-bottom: 10px;
+	@include media-query($max-width + $base-spacing-unit * 2) {
+		margin-left: 1em;
+	}
+}
