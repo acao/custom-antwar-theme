@@ -1,14 +1,14 @@
 {
   "name": "antwar-rikki-theme",
   "version": "0.4.1",
-  "description": "Default theme for antwar",
+  "description": "Antwar theme for rschulte.com",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/antwarjs/default-theme.git"
+    "url": "https://github.com/acao/custom-antwar-theme.git"
   },
   "keywords": [
     "antwar",
@@ -17,9 +17,9 @@
   "author": "eldh",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/antwarjs/default-theme/issues"
+    "url": "https://github.com/acao/custom-antwar-theme/issues"
   },
-  "homepage": "https://github.com/antwarjs/default-theme",
+  "homepage": "https://github.com/acao/custom-antwar-theme",
   "dependencies": {
     "autoprefixer-loader": "^2.0.0",
     "coffee-loader": "^0.7.2",
